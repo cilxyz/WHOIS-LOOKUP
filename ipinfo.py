@@ -27,7 +27,6 @@ def ipinfo():
        os.system("clear")
 
        print ("\033[1;32m\007\n")
-       os.system("figlet IP-Info | lolcat")
        slowprint("\033[1;36m =====================================")
        slowprint("\033[1;33m|            IP Information           |")
        slowprint("\033[1;36m =====================================")
@@ -90,9 +89,6 @@ def main():
       print("\033[1;36m")
       os.system("figlet IPInfo | lolcat")
       slowprint(" ")
-  slowprint ("\033[1;33m ╔═╗╦═╗╔═╗╔╦╗╦╦ ╦╔╦╗\033[1;91m")
-  slowprint ("\033[1;33m ╠═╝╠╦╝║╣ ║║║║║ ║║║║\033[1;91m")
-  slowprint ("\033[1;33m ╩  ╩╚═╚═╝╩ ╩╩╚═╝╩ ╩\033[1;91m")
       slowprint ("\033[1;33m [ 1 ]\033[1;91m Scan IP Address")
       slowprint ("\033[1;33m [ 2 ]\033[1;91m About This Tool")
       slowprint ("\033[1;33m [ 0 ]\033[1;91m Exit")
